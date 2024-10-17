@@ -19,5 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('applications.timbrado_edicom.urls')),
-    path('',include('applications.knzl.urls'))
+    path('',include('applications.knzl.urls')),
+    path('',include('applications.api_cfdi.urls')),
 ]
