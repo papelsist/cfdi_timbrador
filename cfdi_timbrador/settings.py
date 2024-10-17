@@ -26,9 +26,7 @@ SECRET_KEY = 'e4jf$#99!6i0ns=cvfe4z5072qxx7-g%qud49$rziab2#g0zj-'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost',
-    '10.10.1.85',
-    '10.10.1.229'
+    '*'
 ]
 
 
