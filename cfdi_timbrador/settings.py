@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_crontab',
     'applications.timbrado_edicom',
     'applications.knzl',
     'applications.api_cfdi',
